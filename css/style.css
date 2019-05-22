@@ -1,0 +1,29 @@
+*{
+
+}
+
+body{
+    margin: 0;
+    padding: 0;
+}
+
+/*------------HEADER------------*/
+
+header {
+    background: url("../img/cat.jpg")no-repeat top center / cover;
+    height: 800px;
+}
+
+/*------------SOCIAL------------*/
+
+/*------------SPRITE------------*/
+
+/*------------AnimateOne------------*/
+
+/*------------AnimateTwo------------*/
+
+/*------------FormFirst------------*/
+
+/*------------FormSecond------------*/
+
+/*------------SOCIAL------------*/
