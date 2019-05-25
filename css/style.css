@@ -45,6 +45,11 @@ header {
     margin-right: 35px;
 }
 
+#hello {
+    padding-top: 150px;
+}
+
+
 .main {
     font-size: 50px;
 }
@@ -55,8 +60,50 @@ header {
     font-weight: 600;
 }
 
+.btn-outline-dark {
+    color: #ffffff;
+    border-color: #f1e3d1;
+    border-radius: 0;
+}
+
+.form1{
+    width: 290px;
+    background-color: #f1e3d1;
+}
+
+.form1_lab {
+    background-color: #b8b2a7;
+    color: black;
+    font-size: 20px;
+}
+
+.form1_lab span {
+    color: #f1e3d1;
+    text-transform: uppercase;
+}
+
+.baton {
+    background-color: #d8ab8b;
+    padding: 20px 25px;
+    border-radius: 0 0 5px 5px;
+    border: none;
+}
 
 /*------------SOCIAL------------*/
+
+.social {
+    background-color: #f1e3d1;
+}
+
+i {
+    color: #cccccc;
+    font-size: 45px;
+    transition: 1.5s;
+}
+
+i:hover {
+    color: #d8ab8b;
+}
 
 /*------------SPRITE------------*/
 
