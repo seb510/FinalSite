@@ -9,10 +9,6 @@ body{
 
 /*------------HEADER------------*/
 
-header {
-    background: url("../img/cat.jpg")no-repeat top center / cover;
-    height: 500px;
-}
 
 .logo{
     font-size: 35px;
@@ -32,6 +28,7 @@ header {
     font-size: 25px;
     padding: 25px;
     border: 1px solid #f1e3d1;
+    transition: 1.5s;
 }
 
 .navbar-dark .navbar-nav .last:last-child {
@@ -46,6 +43,7 @@ header {
 }
 
 #hello {
+    background: url("../img/cat.jpg")no-repeat top center / cover;
     padding-top: 150px;
 }
 
@@ -105,9 +103,29 @@ i:hover {
     color: #d8ab8b;
 }
 
+.mans__social{
+}
+
+.socials{
+}
+
+.social__text{
+    color: #bfb8ac;
+    margin: 0;
+
+}
 /*------------SPRITE------------*/
 
 /*------------AnimateOne------------*/
+
+.animate__one{
+    background-color: #f1e3d1;
+}
+.animate__img{
+    width: 370px;
+    height: 240px;
+    box-shadow: -1px 0 9px 1px rgba(0,0,0,0.27);
+}
 
 /*------------AnimateTwo------------*/
 
@@ -116,3 +134,10 @@ i:hover {
 /*------------FormSecond------------*/
 
 /*------------SOCIAL------------*/
+
+.social__footer{
+    font-size: 30px;
+    font-weight: 600;
+    text-align: center;
+    margin: 15px;
+}
