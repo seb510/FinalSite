@@ -50,14 +50,15 @@
             <h1 class="logo main">КІТ<span>ПЕС</span></h1>
             <p class="main_text">ПОДБАЙТЕ ПРО ВАШОГО <br>
               ДОМАШНЬОГО УЛЮБЛЕНЦЯ</p>
-            <p class="main_text">Дана програма допоможе розробити <br>
+            <div class="under"></div>
+            <p class="main_text__second">Дана програма допоможе розробити <br>
               ефективну систему догляду за домашнім улюбленцем
             </p>
             <button type="button" class="btn btn-outline-dark">Завантажити</button>
           </div>
-          <div class="form1 col-xl-2 col-md-6 d-flex flex-row-reverse">
-            <form>
-              <h3 class="form1_lab">Спробуй <span>безкоштвно</span></h3>
+          <div class="col-xl-2 col-md-6 d-flex flex-row-reverse">
+            <form class="form1">
+              <h3 class="form1_lab">Спробуй<span>безкоштвно</span></h3>
               <div class="form-group">
                 <input type="text" class="form-control" id="uname" placeholder="Ім'я" name="uname" required>
               </div>
@@ -67,7 +68,7 @@
               <div class="form-group">
                 <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Пароль">
               </div>
-              <button type="submit" class=" baton btn btn-primary">Розпочнімо</button>
+              <button type="submit" class="batton">Розпочнімо</button>
             </form>
           </div>
         </div>
@@ -130,7 +131,7 @@
 
     <div class=" animate__one container-fluid">
       <div class="container">
-        <div class="row d-flex justify-content-center">
+        <div class=" animate row d-flex justify-content-center align-items-center">
           <div class="col-md-5">
             <div class="animate__img">
               <img src="img/first.gif" alt="" class="animate__img">
@@ -141,6 +142,36 @@
               <h3 class="animate__maine">
                 Березовий сік з м'якотю
               </h3>
+              <div class="under orange"></div>
+              <p class="animate__text__one">
+                Коли я бачу в супермарккуті помідори за ціною 50 гривень
+                за кг, я хочу запитати: їх вирощують в Антарктиді дресировані
+                пінгвіни в теплицях, опалювальних термоядерними станціями,
+                а охороняють їх моржі, яких годують осетриною і чорною ікрою?
+              </p>
+              <div class="animate__text__two d-flex">
+                <div class="animate__photo">
+
+                </div>
+                <div>
+                  <h4>Про вечерю</h4>
+                  <p>Добрий ранок розпочинається обід.</p>
+                </div>
+
+              </div>
+              <div class="animate__text__two d-flex">
+                <div class="animate__photo">
+
+                </div>
+                <div>
+                  <h4>Кожного вечора у мене один-єдиний план на ніч:</h4>
+                  <ol class="list">
+                    <li>Прогнати кішку з кімнати, туму що вона заважає.</li>
+                    <li>Переживати, що кішка образилася.</li>
+                    <li>Взяти кішку назад</li>
+                  </ol>
+                </div>
+              </div>
             </div>
           </div>
         </div>
@@ -149,13 +180,14 @@
 
     <div class=" animate__two container-fluid">
       <div class="container">
-        <div class="row d-flex justify-content-center">
+        <div class=" animate row d-flex justify-content-center align-items-center">
           <div class="col-md-7">
             <div class="animate__info">
               <h3 class="animate__maine">
                 Сюрприз у траві
               </h3>
-              <p class="animate__text">
+              <div class="under orange"></div>
+              <p class="animate__text next">
                 Одного літнього спекотного дня, коли мені було років із десять,
                 я повертався зі ставка після купання. Я був одяннений лишнь у
                 коротенькі шортики і кепку. І ось, коли я проходив по стежині
@@ -170,7 +202,7 @@
                 за звичайне. У нас в селі її називають "жигавка" через її норовистий
                 характер.
               </p>
-              <p class="animate__text">
+              <p class="animate__text next">
                 Дід же мій бачив, що зі мною сталось, і подумав що я стрибнув у мурашник
                 і, сміючись, сказав до мене: "Наступного разу будеш знати, як скакати туди,
                 де не слід!"
@@ -189,12 +221,86 @@
 
     <div class=" form__first container-fluid">
       <div class="container">
-
+        <div class="row">
+          <div class="col-xl-12">
+            <div class="form2 d-flex m-auto">
+              <form>
+                <h2 class="form2__main">Ніщо не відбувається з нічого</h2>
+                <div class="d-flex justify-content-between ">
+                  <div class="form-group">
+                    <input type="text" class="forms"  placeholder="Ім'я" name="uname" required>
+                  </div>
+                  <div class="form-group">
+                    <input type="tel" class="forms" name="tel" pattern="2[0-9]{3}-[0-9]{3}" placeholder="+38(0__) ___-__-__">
+                  </div>
+                  <div class="form-group">
+                    <input type="number" class="forms" name="t" min="1" max="15" step="1" placeholder="Кількість товару в шт.">
+                  </div>
+                </div>
+                <div class="buts">
+                  <button type="submit" class=" btn btn-primary btn-lg btn-block m-auto ">Замовити</button>
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
       </div>
     </div>
 
     <div class="form__second container-fluid">
       <div class="container">
+        <div class="row">
+          <div class="col-xl-12">
+            <form>
+              <div class="form__second__main weight">
+                <h2 class="normal">
+                  Ящо Вам скучно пишіть до нас...
+                </h2>
+                <h2>
+                  Будемо раді бачити новий спам
+                </h2>
+                <p class="weight">Давайте спершу перекусимо а дружелюбність проявити потім.</p>
+              </div>
+                <div class="group__all d-flex justify-content-between">
+                  <div class="group__first">
+                    <div class="group">
+                      <input type="text" required>
+                      <span class="highlight"></span>
+                      <span class="bar"></span>
+                      <label>Як звати</label>
+                    </div>
+
+                    <div class="group">
+                      <input type="text" required>
+                      <span class="highlight"></span>
+                      <span class="bar"></span>
+                      <label>Куди електронні листи писати</label>
+                    </div>
+
+                    <div class="group">
+                      <input type="text" required>
+                      <span class="highlight"></span>
+                      <span class="bar"></span>
+                      <label>Що в темі говорити</label>
+                    </div>
+                  </div>
+                  <div class="group">
+                    <textarea name="comment" required></textarea>
+                    <span class="highlight"></span>
+                    <span class="bar"></span>
+                    <label>І що ви про  це все думаєте?</label>
+                  </div>
+                </div>
+
+
+              <div class=" buttons__second">
+                <button type="submit" class="button__second m-auto">Відправити</button>
+              </div>
+
+
+            </form>
+          </div>
+        </div>
 
       </div>
     </div>
