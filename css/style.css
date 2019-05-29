@@ -162,8 +162,8 @@ i:hover {
 .card{
     border: 0;
     flex-direction: unset;
-
 }
+
 .card__info {
     width: 60%;
 }
