@@ -434,3 +434,39 @@ input:focus ~ .highlight {
     text-align: center;
     margin: 15px;
 }
+
+/*-----------ADAPTIVE---------- */
+
+@media screen and (max-width: 992px){
+
+    .form-first{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .form2 {
+        padding: 50px 0;
+        width: 100%;
+    }
+
+    .form2_forms{
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+    }
+
+    /*---------formsecond----------*/
+    .group__all {
+        display: flex;
+        flex-direction: column;
+    }
+
+    input, textarea {
+        width: 100%;
+    }
+
+    .bar{
+        width: 100%;
+    }
+
+}
