@@ -103,7 +103,7 @@ body{
     display: block;
     height: calc(1.5em + .75rem + 2px);
     padding: .375rem .75rem;
-    margin: 15px;
+    margin: 25px;
     font-size: 1rem;
     font-weight: 400;
     line-height: 1.5;
@@ -124,6 +124,7 @@ body{
     border-radius: 0 0 5px 5px;
     border: none;
     font-weight: 600;
+    transition: 1.5s;
 }
 
 /*------------SOCIAL------------*/
@@ -142,30 +143,64 @@ i:hover {
     color: #d8ab8b;
 }
 
-.mans__social{
-}
-
-.socials{
-}
-
 .social__text{
     color: #bfb8ac;
     margin: 0;
 
 }
-/*------------SPRITE------------*/
+/*------------Collapse------------*/
+.cols {
+    margin-bottom: 300px;
+}
 
-/*------------AnimateOne------------*/
+.cols__box {
+    justify-content: center;
+    flex-direction: column;
+    display: flex;
+}
+
+.card{
+    border: 0;
+    flex-direction: unset;
+
+}
+.card__info {
+    width: 60%;
+}
+
+.card__img{
+    width: 40%;
+}
+.but__prim {
+    width: 13%;
+    padding: 49px 0;
+    margin: 50px 0;
+    color: #f1e3d1;
+    font-size: 20px;
+    background-color: #2a3947;
+    transition: 1.5s;
+    border-radius: 0;
+}
+
+.but__prim:hover,
+.but__prim:active{
+    background-color: #d8ab8b;
+}
+
+    /*------------AnimateOne------------*/
 
 .animate {
     padding: 75px 0;
 }
+
 .animate__info {
-    font-weight: 600;
+
 }
+
 .animate__one{
     background-color: #f1e3d1;
 }
+
 .orange {
     border-bottom: 2px solid #ff8b38;
     margin: 25px 0;
@@ -182,8 +217,9 @@ i:hover {
     height: 40px;
     border-radius: 50%;
     border: solid 2px #ff8b38;
-    margin-right: 25px;
+    margin-right: 30px;
 }
+
 .weight {
     font-weight: 600;
 }
@@ -197,7 +233,13 @@ i:hover {
 .next {
     color: #86878b;
 }
+
+.animate__text__under {
+    margin-left: 10px;
+}
+
 /*------------FormFirst------------*/
+
 .form__first {
     background-color: #2a3947;
 }
