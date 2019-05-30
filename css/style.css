@@ -1,10 +1,9 @@
-*{
-
-}
+@import url('https://fonts.googleapis.com/css?family=Roboto:400,500,700&display=swap');
 
 body{
     margin: 0;
     padding: 0;
+    font-family: 'Roboto', sans-serif;
 }
 
 .under {
@@ -48,11 +47,19 @@ body{
     margin-right: 35px;
 }
 
-#hello {
+.hello {
     background: url("../img/cat.jpg")no-repeat top center / cover;
-    padding-top: 150px;
+    padding: 150px 0 100px 0;
 }
 
+.hello2 {
+    background: url("../img/pitbul.jpg")no-repeat top center / cover;
+}
+
+.hello3 {
+    background: url("../img/glaza.jpg")no-repeat top center / cover;
+
+}
 .main {
     font-size: 50px;
 }
@@ -75,12 +82,16 @@ body{
     border-radius: 0;
 }
 
+.btn-outline-dark:hover {
+    background-color: #b8b2a7;
+}
+
 .btn {
     margin: 25px 0;
 }
 
 .form1{
-    padding: 0 -1px 45px 45px;
+    width: 85%;
     background-color: #f1e3d1;
     margin-bottom: 30px;
     border-radius: 0 0 5px 5px;
@@ -91,6 +102,7 @@ body{
     color: black;
     font-size: 20px;
     padding: 15px;
+    text-align: center;
 }
 
 .form1_lab span {
@@ -99,11 +111,11 @@ body{
 }
 
 .form-control {
-    width: 80%;
+    width: 84%;
     display: block;
     height: calc(1.5em + .75rem + 2px);
     padding: .375rem .75rem;
-    margin: 25px;
+    margin: 24px;
     font-size: 1rem;
     font-weight: 400;
     line-height: 1.5;
@@ -125,6 +137,10 @@ body{
     border: none;
     font-weight: 600;
     transition: 1.5s;
+}
+
+.batton:hover {
+    background-color: #b8b2a7;
 }
 
 /*------------SOCIAL------------*/
@@ -153,10 +169,11 @@ i:hover {
     margin-bottom: 300px;
 }
 
-.cols__box {
+.cols__but {
+    margin-top: 80px;
+    display: flex;
     justify-content: center;
     flex-direction: column;
-    display: flex;
 }
 
 .card{
@@ -171,10 +188,11 @@ i:hover {
 .card__img{
     width: 40%;
 }
+
 .but__prim {
+    margin: 3px 0;
     width: 13%;
     padding: 49px 0;
-    margin: 50px 0;
     color: #f1e3d1;
     font-size: 20px;
     background-color: #2a3947;
@@ -193,10 +211,6 @@ i:hover {
     padding: 75px 0;
 }
 
-.animate__info {
-
-}
-
 .animate__one{
     background-color: #f1e3d1;
 }
@@ -213,8 +227,8 @@ i:hover {
 }
 
 .animate__photo {
-    width: 40px;
-    height: 40px;
+    width: 60px;
+    height: 60px;
     border-radius: 50%;
     border: solid 2px #ff8b38;
     margin-right: 30px;
@@ -243,9 +257,10 @@ i:hover {
 .form__first {
     background-color: #2a3947;
 }
+
 .form2{
     padding: 50px 0;
-    width: 70%;
+    width: 85%;
 }
 
 .form2__main {
@@ -467,6 +482,11 @@ input:focus ~ .highlight {
 
     .bar{
         width: 100%;
+    }
+
+    .social {
+        display: flex;
+        flex-direction: row;
     }
 
 }
