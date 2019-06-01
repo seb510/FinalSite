@@ -166,7 +166,7 @@ i:hover {
 }
 /*------------Collapse------------*/
 .cols {
-    margin-bottom: 300px;
+    margin-bottom: 250px;
 }
 
 .cols__but {
@@ -292,6 +292,12 @@ i:hover {
     background-color: #d8ab8b;
     border-radius: 0;
     border-color: #d8ab8b;
+    transition: 1.5s;
+}
+
+.btn-primary:hover {
+    background-color: #c8ae7f;
+    border-color: #c8ae7f;
 }
 
 /*------------FormSecond------------*/
@@ -437,7 +443,11 @@ input:focus ~ .highlight {
     border: none;
     font-weight: 500;
     text-align: center;
-    transition: 0.2s ease-out;
+    transition: 1.5s;
+}
+
+.button__second:hover {
+    background-color: #d8ab8b;
 }
 
 
@@ -453,6 +463,34 @@ input:focus ~ .highlight {
 /*-----------ADAPTIVE---------- */
 
 @media screen and (max-width: 992px){
+
+    /*collapse*/
+
+
+    .card{
+        border: 0;
+        flex-direction: column;
+    }
+
+    .card__info {
+        width: 90%;
+    }
+
+    .card__img{
+        width: 90%;
+    }
+
+    .cols__but {
+        margin-top: 80px;
+        display: flex;
+        justify-content: space-between;
+        flex-direction: row;
+    }
+
+    .but__prim{
+        padding: 10px 0;
+        width: 32%;
+    }
 
     .form-first{
         display: flex;
