@@ -12,6 +12,9 @@ body{
     margin-bottom: 3px;
 }
 
+.weight {
+    font-weight: 600;
+}
 /*------------HEADER------------*/
 
 
@@ -164,6 +167,7 @@ i:hover {
     margin: 0;
 
 }
+
 /*------------Collapse------------*/
 .cols {
     margin-bottom: 250px;
@@ -232,10 +236,6 @@ i:hover {
     border-radius: 50%;
     border: solid 2px #ff8b38;
     margin-right: 30px;
-}
-
-.weight {
-    font-weight: 600;
 }
 
 .list {
@@ -464,8 +464,17 @@ input:focus ~ .highlight {
 
 @media screen and (max-width: 992px){
 
-    /*collapse*/
+    .hello {
+        text-align: center;
+        padding: 10px auto;
+    }
 
+    .form1 {
+        margin: 10px auto;
+    }
+
+
+    /*collapse*/
 
     .card{
         border: 0;
