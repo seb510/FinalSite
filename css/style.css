@@ -371,6 +371,7 @@ textarea:focus ~ label, textarea:valid ~ label 		{
     display:block;
     width:500px;
 }
+
 .bar:before, .bar:after 	{
     content:'';
     height:2px;
