@@ -339,6 +339,7 @@ textarea {
 input,textarea:focus 		{ outline:none; }
 
 /* LABEL ======================================= */
+
 label 				 {
     color:#dcd9d3;
     font-size:18px;
