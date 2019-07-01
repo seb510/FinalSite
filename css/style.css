@@ -326,6 +326,7 @@ i:hover {
     position:relative;
     margin-bottom:45px;
 }
+
 input, textarea{
     font-size:18px;
     padding:10px 10px 10px 5px;
@@ -369,7 +370,9 @@ textarea:focus ~ label, textarea:valid ~ label 		{
     font-size:14px;
     color:#dcd9d3;
 }
+
 /* BOTTOM BARS ================================= */
+
 .bar 	{
     position:relative;
     display:block;
@@ -387,9 +390,11 @@ textarea:focus ~ label, textarea:valid ~ label 		{
     -moz-transition:0.2s ease all;
     -webkit-transition:0.2s ease all;
 }
+
 .bar:before {
     left:50%;
 }
+
 .bar:after {
     right:50%;
 }
@@ -400,6 +405,7 @@ input:focus ~ .bar:before, input:focus ~ .bar:after {
 }
 
 /* HIGHLIGHTER ================================== */
+
 .highlight {
     position:absolute;
     height:60%;
@@ -411,6 +417,7 @@ input:focus ~ .bar:before, input:focus ~ .bar:after {
 }
 
 /* active state */
+
 input:focus ~ .highlight {
     -webkit-animation:inputHighlighter 0.3s ease;
     -moz-animation:inputHighlighter 0.3s ease;
@@ -418,6 +425,7 @@ input:focus ~ .highlight {
 }
 
 /* ANIMATIONS ================ */
+
 @-webkit-keyframes inputHighlighter {
     from { background:#d6d6d6; }
     to 	{ width:0; background:transparent; }
