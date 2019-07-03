@@ -479,6 +479,11 @@ input:focus ~ .highlight {
 
 @media screen and (max-width: 992px){
 
+    .navbar-expand-sm>.container, .navbar-expand-sm>.container-fluid {
+        padding-right: 5px;
+        padding-left: 5px;
+    }
+
     .hello {
         text-align: center;
         padding: 10px auto;
